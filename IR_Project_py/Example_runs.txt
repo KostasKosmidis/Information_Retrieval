@@ -1,0 +1,107 @@
+[nltk_data] Downloading package punkt to C:\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to C:\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to C:\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to C:\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Rock_music
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Pop_music
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Heavy_metal_music
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Metallica
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Linkin_Park
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Avenged_Sevenfold
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Jazz
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Classical_music
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Guitar
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Violin
+Συλλογή άρθρου: https://en.wikipedia.org/wiki/Clarinet
+Δεδομένα αποθηκεύτηκαν στο dataset.json
+Ευρετήριο αποθηκεύτηκε στο inverted_index.json
+
+Εισάγετε τη λέξη κλειδί σας ή γράψτε 'exit' για τερματισμό:
+Κλειδί: rock
+
+Επιλέξτε αλγόριθμο:
+1. TF-IDF
+2. Vector Space Model (VSM)
+3. Okapi BM25
+Γράψτε 'exit' για τερματισμό.
+Επιλογή (1, 2, 3): 3
+
+Χρησιμοποιώντας Okapi BM25...
+
+Αποτελέσματα αναζήτησης:
+Rock music (Βαθμολογία: 0.3317)
+Linkin Park (Βαθμολογία: 0.3266)
+Heavy metal music (Βαθμολογία: 0.3266)
+Metallica (Βαθμολογία: 0.3193)
+Avenged Sevenfold (Βαθμολογία: 0.3171)
+Pop music (Βαθμολογία: 0.3154)
+Jazz (Βαθμολογία: 0.2939)
+Guitar (Βαθμολογία: 0.2847)
+Violin (Βαθμολογία: 0.2519)
+Clarinet (Βαθμολογία: 0.1807)
+
+Αξιολόγηση Αποτελεσμάτων:
+Precision: 0.2000
+Recall: 1.0000
+F1 Score: 0.3333
+
+Mean Average Precision (MAP): 0.8333
+
+Εισάγετε τη λέξη κλειδί σας ή γράψτε 'exit' για τερματισμό:
+Κλειδί: violin
+
+Επιλέξτε αλγόριθμο:
+1. TF-IDF
+2. Vector Space Model (VSM)
+3. Okapi BM25
+Γράψτε 'exit' για τερματισμό.
+Επιλογή (1, 2, 3): 1
+
+Χρησιμοποιώντας αλγόριθμο TF-IDF...
+
+Αποτελέσματα αναζήτησης:
+Violin (Βαθμολογία: 307.5769)
+Classical music (Βαθμολογία: 15.0037)
+Guitar (Βαθμολογία: 3.7509)
+Jazz (Βαθμολογία: 3.7509)
+
+Αξιολόγηση Αποτελεσμάτων:
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+
+Mean Average Precision (MAP): 0.0000
+
+Εισάγετε τη λέξη κλειδί σας ή γράψτε 'exit' για τερματισμό:
+Κλειδί: linkin park
+
+Επιλέξτε αλγόριθμο:
+1. TF-IDF
+2. Vector Space Model (VSM)
+3. Okapi BM25
+Γράψτε 'exit' για τερματισμό.
+Επιλογή (1, 2, 3): 1
+
+Χρησιμοποιώντας αλγόριθμο TF-IDF...
+
+Αποτελέσματα αναζήτησης:
+Linkin Park (Βαθμολογία: 342.1406)
+Metallica (Βαθμολογία: 11.8520)
+Rock music (Βαθμολογία: 9.2767)
+Heavy metal music (Βαθμολογία: 3.7918)
+Avenged Sevenfold (Βαθμολογία: 3.3863)
+
+Αξιολόγηση Αποτελεσμάτων:
+Precision: 0.4000
+Recall: 1.0000
+F1 Score: 0.5714
+
+Mean Average Precision (MAP): 0.4167
+
+Εισάγετε τη λέξη κλειδί σας ή γράψτε 'exit' για τερματισμό:
+Κλειδί: exit
+Τερματισμός προγράμματος.
